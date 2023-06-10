@@ -13,5 +13,7 @@ while(i<3){
     sum+=n;
 }
 System.out.println("Total value: "+sum);
+if(sum>=8)System.out.printf("You win!");
+else System.out.println("You lose!");
     }
 }
