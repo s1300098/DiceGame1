@@ -10,7 +10,7 @@ public class DiceGame {
         System.out.println("What is your name?");
         System.out.print("> ");
 String name = sc.next();
-System.out.println("Hello, "+name);
+System.out.println("Hello, "+name+"!");
         System.out.println("Dice rolling...");
 while(i<3){
     n = r.nextInt(5)+1;
@@ -19,7 +19,7 @@ while(i<3){
     sum+=n;
 }
 System.out.println("Total value: "+sum);
-if(sum>=8)System.out.printf("You win!");
-else System.out.println("You lose!");
+if(sum>=8)System.out.printf(name+" win!");
+else System.out.println(name+" lose!");
     }
 }
